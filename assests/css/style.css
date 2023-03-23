@@ -1,0 +1,40 @@
+:root{
+   --azul-dnc: #0c70f2;
+   --preto-dnc: #303030;
+   --branco-dnc: rgb(239,235,228);
+   --letra-preta: black;
+}
+
+
+body{
+   background-color: var(--preto-dnc);
+   color: var(--branco-dnc);
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+   display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns: 33vw;
+}
+
+section{
+   background-color: var(--branco-dnc);
+   color: var(--letra-preta);
+   padding: 15px;
+   border-radius: 10px;
+   width: 50%;
+   margin: auto;
+}
+
+.botao{
+   background-color: var(--azul-dnc);
+   color: var(--branco-dnc);
+   width: 150px;
+   border: 0;
+   height: 30px;
+   border-radius: 10px;
+}
+
+
